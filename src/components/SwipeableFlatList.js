@@ -31,9 +31,7 @@ export default class SwipeableFlatList extends Component {
     }
 
 	_handleOpenChild = (ref) => {
-		// this._itemRef?.current?.close?.();
-        // this._itemRef = ref;
-        this._itemRef && this._itemRef.close();
+		this._itemRef?.current?.close?.();
         this._itemRef = ref;
 	}
 
