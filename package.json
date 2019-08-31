@@ -1,6 +1,6 @@
 {
-  "name": "react-native-swipeable-flat-list",
-  "version": "0.1.1",
+  "name": "react-native-swipeable-flat-list-2",
+  "version": "0.0.1",
   "description": "A React Native component based on FlatList with rows that can be swiped open/close.",
   "main": "src/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gitboss2000/react-native-swipeable-flat-list.git"
+    "url": "git+https://github.com/defyma/react-native-swipeable-flat-list.git"
   },
   "keywords": [
     "React",
@@ -22,9 +22,9 @@
   "author": "Ole Walkenhorst <git@lkdlr.eu>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gitboss2000/react-native-swipeable-flat-list/issues"
+    "url": "https://github.com/defyma/react-native-swipeable-flat-list/issues"
   },
-  "homepage": "https://github.com/gitboss2000/react-native-swipeable-flat-list#readme",
+  "homepage": "https://github.com/defyma/react-native-swipeable-flat-list#readme",
   "peerDependencies": {
     "react": "^16.8.3",
     "react-native": "^0.59.8"

@@ -23,11 +23,18 @@ export default class SwipeableFlatList extends Component {
 	constructor(props) {
 		super(props);
 		this._itemRef = React.createRef();
-	}
+    }
+    
+    //https://github.com/gitboss2000/react-native-swipeable-flat-list/issues/8#issuecomment-399783964
+    closeChild = () => {
+        this._itemRef && this._itemRef.close();
+    }
 
 	_handleOpenChild = (ref) => {
-		this._itemRef?.current?.close?.();
-		this._itemRef = ref;
+		// this._itemRef?.current?.close?.();
+        // this._itemRef = ref;
+        this._itemRef && this._itemRef.close();
+        this._itemRef = ref;
 	}
 
 	_handleCloseChild = () => {
